@@ -1,0 +1,13 @@
+void barem(int i)
+{
+	if (i <= 10)
+			System.out.println("insuffisant");
+		else if (i <= 12)
+			System.out.println("moyen");
+		else if (i <= 14)
+			System.out.println("assez bien");
+		else if (i <= 16)
+			System.out.println("bien");
+		else if (i <= 20)
+			System.out.println("tres bien");
+}
